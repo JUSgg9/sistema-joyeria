@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Nuevo Cliente</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2>Registrar Cliente</h2>
+
+<form action="guardar.php" method="POST">
+
+<div class="mb-3">
+<label>Nombre</label>
+<input type="text" name="nombre" class="form-control" required>
+</div>
+
+<div class="mb-3">
+<label>Correo</label>
+<input type="email" name="correo" class="form-control" required>
+</div>
+
+<div class="mb-3">
+<label>Teléfono</label>
+<input type="text" name="telefono" class="form-control" required>
+</div>
+
+<button class="btn btn-success">
+Guardar Cliente
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
